@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-color: rgb(234, 241, 243);
+	color:rgb(20, 19, 19);
+}
+.main{
+	width: 50%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 7rem;
+	margin-left: 27%;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin-top: 75px;
+	background-color: darkgray;
+
+}
+#text{
+	font-size: 3rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+.line{
+	animation: animation 0.2s infinite linear;
+}
+@keyframes animation{
+	0%,100%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+}
